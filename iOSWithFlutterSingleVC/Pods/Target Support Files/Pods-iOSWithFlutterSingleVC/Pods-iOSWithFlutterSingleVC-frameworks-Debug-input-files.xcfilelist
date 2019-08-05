@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-iOSWithFlutterSingleVC/Pods-iOSWithFlutterSingleVC-frameworks.sh
+${PODS_ROOT}/../../flutter_to_native/.ios/Flutter/engine/Flutter.framework
+${PODS_ROOT}/../../flutter_to_native/.ios/Flutter/App.framework

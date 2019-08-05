@@ -1,0 +1,17 @@
+platform :ios, '9.0'
+
+target 'iOSWithFlutter' do
+
+    pod 'AFNetworking'
+    
+end
+
+flutter_application_path = '../flutter_to_native/'
+
+eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+
+
+
+#load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+#install_all_flutter_pods(flutter_application_path)
