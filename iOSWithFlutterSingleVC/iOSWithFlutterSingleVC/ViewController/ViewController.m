@@ -19,13 +19,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self initFlutterRouter];
 }
 
 - (IBAction)clickedToFlutter:(UIButton *)sender {
     FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
     FlutterViewController *flutterVC = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
     [self.navigationController pushViewController:flutterVC animated:YES];
+    
+}
+
+- (IBAction)clickedToFlutter2:(id)sender {
+    FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
+    FlutterViewController *flutterVC = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+    [self.navigationController pushViewController:flutterVC animated:YES];
+}
+
+
+- (void)initFlutterRouter
+{
+    FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
+    FlutterViewController *flutterVC = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+    [flutterVC setInitialRoute:@"FlutterVC1"];
 }
 
 @end
