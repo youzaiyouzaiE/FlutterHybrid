@@ -7,11 +7,14 @@
 //
 
 #import "ViewController.h"
-#import <Flutter/Flutter.h>
 #import "AppDelegate.h"
 #import <Flutter/FlutterViewController.h>
+#import <FlutterPluginRegistrant/GeneratedPluginRegistrant.h>
+#import "FirstFlutterPage.h"
 
 @interface ViewController ()
+
+@property(nonatomic, strong) FlutterViewController *flutterPage;
 
 @end
 
@@ -19,20 +22,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self initFlutterRouter];
+    
 }
 
 - (IBAction)clickedToFlutter:(UIButton *)sender {
     FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
-    FlutterViewController *flutterVC = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
-    [self.navigationController pushViewController:flutterVC animated:YES];
-    
+    self.flutterPage = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+    [self.navigationController pushViewController:self.flutterPage animated:YES];
 }
 
 - (IBAction)clickedToFlutter2:(id)sender {
     FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
-    FlutterViewController *flutterVC = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
-    [self.navigationController pushViewController:flutterVC animated:YES];
+    FirstFlutterPage *ffp = [[FirstFlutterPage alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+    [self.navigationController pushViewController:ffp animated:YES];
 }
 
 
@@ -42,5 +44,6 @@
     FlutterViewController *flutterVC = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
     [flutterVC setInitialRoute:@"FlutterVC1"];
 }
+
 
 @end

@@ -3,22 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CEC4B781963FEFD1E495082 /* libPods-iOSWithFlutterSingleVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB6F99191F2CA2A79D282D5 /* libPods-iOSWithFlutterSingleVC.a */; };
+		9EE62ECBAD9D2FB5F9390C3D /* libPods-iOSWithFlutterSingleVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB6F99191F2CA2A79D282D5 /* libPods-iOSWithFlutterSingleVC.a */; };
+		A3146E1822F95F1A005F8333 /* FirstFlutterPage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3146E1722F95F1A005F8333 /* FirstFlutterPage.m */; };
+		A3B4FC9B22F929210083C8EE /* libFlutterPluginRegistrant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B4FC9A22F929210083C8EE /* libFlutterPluginRegistrant.a */; };
 		A3F0615E22F80C31000C4462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0615D22F80C31000C4462 /* AppDelegate.m */; };
 		A3F0616122F80C31000C4462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0616022F80C31000C4462 /* ViewController.m */; };
 		A3F0616422F80C31000C4462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F0616222F80C31000C4462 /* Main.storyboard */; };
 		A3F0616622F80C32000C4462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F0616522F80C32000C4462 /* Assets.xcassets */; };
 		A3F0616922F80C32000C4462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F0616722F80C32000C4462 /* LaunchScreen.storyboard */; };
 		A3F0616C22F80C32000C4462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0616B22F80C32000C4462 /* main.m */; };
+		A3F0617B22F82635000C4462 /* SecondNativePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0617A22F82635000C4462 /* SecondNativePage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FB56CE385B17E4AFD2585A0 /* Pods-iOSWithFlutterSingleVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWithFlutterSingleVC.debug.xcconfig"; path = "Target Support Files/Pods-iOSWithFlutterSingleVC/Pods-iOSWithFlutterSingleVC.debug.xcconfig"; sourceTree = "<group>"; };
 		2EB6F99191F2CA2A79D282D5 /* libPods-iOSWithFlutterSingleVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWithFlutterSingleVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3146E1622F95F1A005F8333 /* FirstFlutterPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstFlutterPage.h; sourceTree = "<group>"; };
+		A3146E1722F95F1A005F8333 /* FirstFlutterPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstFlutterPage.m; sourceTree = "<group>"; };
+		A3B4FC9A22F929210083C8EE /* libFlutterPluginRegistrant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFlutterPluginRegistrant.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F0615922F80C31000C4462 /* iOSWithFlutterSingleVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWithFlutterSingleVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F0615C22F80C31000C4462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3F0615D22F80C31000C4462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +35,8 @@
 		A3F0616822F80C32000C4462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3F0616A22F80C32000C4462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3F0616B22F80C32000C4462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3F0617922F82635000C4462 /* SecondNativePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondNativePage.h; sourceTree = "<group>"; };
+		A3F0617A22F82635000C4462 /* SecondNativePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondNativePage.m; sourceTree = "<group>"; };
 		F1936F930D58C6A30D2D2F6C /* Pods-iOSWithFlutterSingleVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWithFlutterSingleVC.release.xcconfig"; path = "Target Support Files/Pods-iOSWithFlutterSingleVC/Pods-iOSWithFlutterSingleVC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CEC4B781963FEFD1E495082 /* libPods-iOSWithFlutterSingleVC.a in Frameworks */,
+				A3B4FC9B22F929210083C8EE /* libFlutterPluginRegistrant.a in Frameworks */,
+				9EE62ECBAD9D2FB5F9390C3D /* libPods-iOSWithFlutterSingleVC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +56,7 @@
 		64CE8ED85F116AEC507B7718 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3B4FC9A22F929210083C8EE /* libFlutterPluginRegistrant.a */,
 				2EB6F99191F2CA2A79D282D5 /* libPods-iOSWithFlutterSingleVC.a */,
 			);
 			name = Frameworks;
@@ -58,8 +68,16 @@
 				0FB56CE385B17E4AFD2585A0 /* Pods-iOSWithFlutterSingleVC.debug.xcconfig */,
 				F1936F930D58C6A30D2D2F6C /* Pods-iOSWithFlutterSingleVC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3146E1522F95EEC005F8333 /* FirstFlutterPage */ = {
+			isa = PBXGroup;
+			children = (
+				A3146E1622F95F1A005F8333 /* FirstFlutterPage.h */,
+				A3146E1722F95F1A005F8333 /* FirstFlutterPage.m */,
+			);
+			path = FirstFlutterPage;
 			sourceTree = "<group>";
 		};
 		A3F0615022F80C31000C4462 = {
@@ -83,17 +101,44 @@
 		A3F0615B22F80C31000C4462 /* iOSWithFlutterSingleVC */ = {
 			isa = PBXGroup;
 			children = (
+				A3146E1522F95EEC005F8333 /* FirstFlutterPage */,
+				A3F0617822F8260F000C4462 /* SecondNaitvePage */,
+				A3F0617322F8254B000C4462 /* ViewController */,
+				A3F0617222F82539000C4462 /* Supporting Files */,
+			);
+			path = iOSWithFlutterSingleVC;
+			sourceTree = "<group>";
+		};
+		A3F0617222F82539000C4462 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				A3F0615C22F80C31000C4462 /* AppDelegate.h */,
 				A3F0615D22F80C31000C4462 /* AppDelegate.m */,
-				A3F0615F22F80C31000C4462 /* ViewController.h */,
-				A3F0616022F80C31000C4462 /* ViewController.m */,
 				A3F0616222F80C31000C4462 /* Main.storyboard */,
 				A3F0616522F80C32000C4462 /* Assets.xcassets */,
 				A3F0616722F80C32000C4462 /* LaunchScreen.storyboard */,
 				A3F0616A22F80C32000C4462 /* Info.plist */,
 				A3F0616B22F80C32000C4462 /* main.m */,
 			);
-			path = iOSWithFlutterSingleVC;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3F0617322F8254B000C4462 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0615F22F80C31000C4462 /* ViewController.h */,
+				A3F0616022F80C31000C4462 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A3F0617822F8260F000C4462 /* SecondNaitvePage */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0617922F82635000C4462 /* SecondNativePage.h */,
+				A3F0617A22F82635000C4462 /* SecondNativePage.m */,
+			);
+			path = SecondNaitvePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3F0616122F80C31000C4462 /* ViewController.m in Sources */,
+				A3F0617B22F82635000C4462 /* SecondNativePage.m in Sources */,
+				A3146E1822F95F1A005F8333 /* FirstFlutterPage.m in Sources */,
 				A3F0616C22F80C32000C4462 /* main.m in Sources */,
 				A3F0615E22F80C31000C4462 /* AppDelegate.m in Sources */,
 			);
@@ -374,7 +421,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 776HE9E6LB;
-				INFOPLIST_FILE = iOSWithFlutterSingleVC/Info.plist;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSWithFlutterSingleVC/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,7 +441,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 776HE9E6LB;
-				INFOPLIST_FILE = iOSWithFlutterSingleVC/Info.plist;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSWithFlutterSingleVC/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
