@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_plugin_batterylevel/flutter_plugin_batterylevel.dart';
 import 'dart:async';
 import 'package:flutter/services.dart';
+import 'dart:io';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.yellow,
+        primarySwatch: Colors.grey,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -30,33 +31,40 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   String _systemVersion = 'NO SystemVersion';
 
-  static const EventChannel _eventChannelPlugin =
-      EventChannel('EventChannelPlugin');
-  String showMessage = "NO Charging";
-  static const MethodChannel _methodChannelPlugin =
-      const MethodChannel('MethodChannelPlugin');
-  static const BasicMessageChannel<String> _basicMessageChannel =
-      const BasicMessageChannel('BasicMessageChannelPlugin', StringCodec());
-  bool _isMethodChannelPlugin = false;
+  String _receiveMessage = "NO ReceiveMessage";
+
+  String _sendMessage = "NO SendMessage";
+
+  String _eventChannelMessage = "NO EventChannelMessage";
+
+  static const BasicMessageChannel<String> _basicMessageChannel = const BasicMessageChannel('BasicMessageChannelPlugin', StringCodec());
+
+  static const MethodChannel _methodChannelPlugin = const MethodChannel('MethodChannelPlugin');
+
+  static const EventChannel _eventChannelPlugin = EventChannel('EventChannelPlugin');
+
   StreamSubscription _streamSubscription;
+
+  Future<String> returnToRaw() async {
+    return Platform.version;
+  }
+
+  Future<String> returnToRawe() async {
+    return "gaogaogao";
+  }
 
   @override
   void initState() {
+
     super.initState();
 
-    _basicMessageChannel.setMessageHandler((message) async {
+    _basicMessageChannel.setMessageHandler((message){
+
       setState(() {
-        showMessage = "MessageChannel" + message;
+        _receiveMessage =  message;
       });
-      _streamSubscription = _eventChannelPlugin
-          .receiveBroadcastStream()
-          .listen(_onEvent, onError: _onError);
+
     });
-
-    Future<String> returnToRaw() async {
-      return 'I am Flutter, received your message';
-    }
-
 
     _methodChannelPlugin.setMethodCallHandler((call) async {
       if(call.method == "getFlutterVersion") {
@@ -66,17 +74,11 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     });
 
+    _streamSubscription = _eventChannelPlugin
+        .receiveBroadcastStream()
+        .listen(_onEvent, onError: _onError);
 
-
-    Future<dynamic> _handler(MethodCall methodCall) {
-      if ("a_method" == methodCall.method) {
-        print(methodCall.method);
-      }
-      return Future.value(true);
-    }
   }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -105,26 +107,61 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Row(
                 children: <Widget>[
-                  Text(
-                    showMessage,
+                  RaisedButton(
+                    child: Text('发送消息:'),
+                    onPressed: () {
+                      _sendMessageByMessageChannel();
+                    },
                   ),
-                  Text(
-                    showMessage,
+                  Container(
+                    padding: EdgeInsets.all(10.0),
                   ),
                 ],
               ),
+              TextField(
+                onChanged:(message) {
+                  _sendMessage = message;
+                },
+              ),
+              Container(
+                padding: EdgeInsets.all(10.0),
+              ),
               Row(
-               children: <Widget>[
-                 Text(
-                   showMessage,
-                 ),
-               ],
+                children: <Widget>[
+                  RaisedButton(
+                    child: Text("收到信息："),
+                    onPressed: () {
+
+                    },
+                  ),
+                  Container(
+                    padding: EdgeInsets.all(10.0),
+                  ),
+                  Text(
+                    _receiveMessage,
+                  ),
+                ],
               ),
             ],
           ),
         ),
       ),
     );
+  }
+
+  void _sendMessageByMessageChannel() async{
+    String receiveMessage = await _basicMessageChannel.send(_sendMessage);
+    setState(() {
+      _receiveMessage = receiveMessage;
+    });
+  }
+
+  void _getSystemVerion() async {
+    String systemVersion =
+    await _methodChannelPlugin.invokeMethod('getSystemVerison', null);
+    setState(() {
+      _systemVersion = systemVersion;
+    });
   }
 
   @override
@@ -139,21 +176,14 @@ class _MyHomePageState extends State<MyHomePage> {
   void _onEvent(message) {
     print(message);
     setState(() {
-      showMessage = 'EventChannel:' + message;
+      _eventChannelMessage = 'EventChannel:' + message;
     });
   }
 
   void _onError(error) {
     setState(() {
-      showMessage = 'EventChannel:' + error;
-    });
-  }
-
-  void _getSystemVerion() async {
-    String systemVersion =
-        await _methodChannelPlugin.invokeMethod('getSystemVerison', null);
-    setState(() {
-      _systemVersion = systemVersion;
+      _eventChannelMessage = 'EventChannel:' + error;
     });
   }
 }
+
