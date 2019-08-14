@@ -9,28 +9,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iOSWithFlutterSingleVC/ViewController/ViewController.m"
-            timestampString = "586779427.986322"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "-clickedToFlutter:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "iOSWithFlutterSingleVC/FirstFlutterPage/FirstFlutterPage.m"
-            timestampString = "587028113.748288"
+            timestampString = "587379303.070851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "-getFlutterVersionToFlutter"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iOSWithFlutterSingleVC/FirstFlutterPage/FirstFlutterPage.m"
-            timestampString = "587028113.748765"
+            timestampString = "587379303.0709389"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "-getFlutterVersionToFlutter"
             landmarkType = "7">
             <Locations>
@@ -58,11 +42,11 @@
                   moduleName = "iOSWithFlutterSingleVC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gaodeying/Desktop/Git_FlutterHybrid/iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/FirstFlutterPage/FirstFlutterPage.m"
-                  timestampString = "587028113.815173"
+                  timestampString = "587360476.582085"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
                   offsetFromSymbolStart = "33">
                </Location>
                <Location
@@ -73,11 +57,11 @@
                   moduleName = "iOSWithFlutterSingleVC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gaodeying/Desktop/Git_FlutterHybrid/iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/FirstFlutterPage/FirstFlutterPage.m"
-                  timestampString = "587028113.818489"
+                  timestampString = "587360476.58385"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
@@ -88,11 +72,11 @@
                   moduleName = "iOSWithFlutterSingleVC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gaodeying/Desktop/Git_FlutterHybrid/iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/FirstFlutterPage/FirstFlutterPage.m"
-                  timestampString = "587028113.821704"
+                  timestampString = "587360476.5858181"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
                   offsetFromSymbolStart = "16">
                </Location>
             </Locations>

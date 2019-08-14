@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <Flutter/Flutter.h>
 
-@interface ViewController : UIViewController<FlutterStreamHandler>
+@interface ViewController : UIViewController
 
-@property (nonatomic, copy)   FlutterEventSink  eventSink;
+@property (nonatomic, copy) FlutterEventSink  eventSink;
 
 @end
 

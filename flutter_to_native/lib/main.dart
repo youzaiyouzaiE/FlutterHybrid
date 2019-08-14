@@ -3,21 +3,36 @@ import 'package:flutter_plugin_batterylevel/flutter_plugin_batterylevel.dart';
 import 'dart:async';
 import 'package:flutter/services.dart';
 import 'dart:io';
+import 'FirstFlutterPage.dart';
+import 'SecondFlutterPage.dart';
+import 'dart:ui';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.grey,
-      ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: _widgetForRoute(window.defaultRouteName),
     );
   }
 }
+
+Widget _widgetForRoute(String route) {
+  print('gao' + route);
+  switch (route) {
+    case "/FirstFlutterPage":
+      return  new FirstFlutterPage();
+    case "/":
+      return new MyHomePage();
+    default:
+      return new MyHomePage();
+  }
+}
+
+
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -36,6 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String _sendMessage = "NO SendMessage";
 
   String _eventChannelMessage = "NO EventChannelMessage";
+
 
   static const BasicMessageChannel<String> _basicMessageChannel = const BasicMessageChannel('BasicMessageChannelPlugin', StringCodec());
 
@@ -74,11 +90,8 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     });
 
-    _streamSubscription = _eventChannelPlugin
-        .receiveBroadcastStream()
-        .listen(_onEvent, onError: _onError);
-
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -86,13 +99,15 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: new Container(
           padding: new EdgeInsets.all(10.0),
+          margin: new EdgeInsets.only(top: 500, left:10, bottom: 100, right: 10),
+          color: Colors.yellowAccent,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               Row(
                 children: <Widget>[
                   RaisedButton(
-                    child: Text('获取iOS系统版本:'),
+                    child: Text('MC获取iOS系统版本:'),
                     onPressed: () {
                       _getSystemVerion();
                     },
@@ -108,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Row(
                 children: <Widget>[
                   RaisedButton(
-                    child: Text('发送消息:'),
+                    child: Text('MessageC发送消息:'),
                     onPressed: () {
                       _sendMessageByMessageChannel();
                     },
@@ -129,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Row(
                 children: <Widget>[
                   RaisedButton(
-                    child: Text("收到信息："),
+                    child: Text("MessageC收到信息："),
                     onPressed: () {
 
                     },
@@ -139,6 +154,24 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Text(
                     _receiveMessage,
+                  ),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  RaisedButton(
+                    child: Text("EventC收到信息："),
+                    onPressed: () {
+                      _streamSubscription = _eventChannelPlugin
+                          .receiveBroadcastStream()
+                          .listen(_onEvent, onError: _onError);
+                    },
+                  ),
+                  Container(
+                    padding: EdgeInsets.all(10.0),
+                  ),
+                  Text(
+                    _eventChannelMessage,
                   ),
                 ],
               ),
@@ -176,13 +209,13 @@ class _MyHomePageState extends State<MyHomePage> {
   void _onEvent(message) {
     print(message);
     setState(() {
-      _eventChannelMessage = 'EventChannel:' + message;
+      _eventChannelMessage = message;
     });
   }
 
   void _onError(error) {
     setState(() {
-      _eventChannelMessage = 'EventChannel:' + error;
+      _eventChannelMessage = error;
     });
   }
 }

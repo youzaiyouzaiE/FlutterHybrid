@@ -3,14 +3,14 @@
 //  iOSWithFlutterSingleVC
 //
 //  Created by 搞得赢 on 2019/8/6.
-//  Copyright © 2019 德赢工作室. All rights reserved.
+//  Copyright © 2019 . All rights reserved.
 //
 
-#import "FirstFlutterPage.h"
+#import "SecondFlutterPage.h"
 #import <Flutter/Flutter.h>
 #import <FlutterPluginRegistrant/GeneratedPluginRegistrant.h>
 
-@interface FirstFlutterPage ()<FlutterStreamHandler>
+@interface SecondFlutterPage ()<FlutterStreamHandler>
 
 @property (nonatomic) FlutterBasicMessageChannel* messageChannel;
 @property (nonatomic) FlutterEventChannel* eventChannel;
@@ -28,9 +28,11 @@
 
 @property (nonatomic, strong) UILabel *receiveMessageLabel;
 
+@property (nonatomic, strong) UILabel *eventSendLabel;
+
 @end
 
-@implementation FirstFlutterPage
+@implementation SecondFlutterPage
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -109,19 +111,29 @@
 
 - (void)sendEventChannelMessageToFlutter {
     if (!self.eventSink) return;
-    self.eventSink([NSString stringWithFormat:@"%d", self.i++]);
+    NSString *str = [NSString stringWithFormat:@"%d", self.i++];
+    [self.eventSendLabel setText:str];
+    self.eventSink(str);
 }
 
 #pragma mark - SetUp Views
 - (void)setUpView
 {
+    [self setInitialRoute:@"/"];
     [self.navigationItem setTitle:@"Flutter Page"];
-    UIView *nativeV = [[UIView alloc] initWithFrame:CGRectMake(10, 64+20+20, [UIScreen mainScreen].bounds.size.width-20, 200)];
-    [nativeV setBackgroundColor:[UIColor grayColor]];
+    UITabBarItem *tabbarButton = [[UITabBarItem alloc] initWithTitle:@"Flutter Page" image:nil tag:9999];
+    [self setTabBarItem:tabbarButton];
+    UIView *nativeV = [[UIView alloc] initWithFrame:CGRectMake(10, 64+20+60, [UIScreen mainScreen].bounds.size.width-20, 230)];
+    [nativeV setBackgroundColor:[UIColor blueColor]];
+    
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 50, 50)];
+    [titleLabel setTextColor:[UIColor blueColor]];
+    [titleLabel setText:@"iOS"];
+    [nativeV addSubview:titleLabel];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
     [btn setFrame:CGRectMake(10, 30, 150, 30)];
-    [btn setTitle:@"获取Flutter版本: " forState:UIControlStateNormal];
+    [btn setTitle:@"MC获取Flutter版本: " forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor lightGrayColor];
     [btn addTarget:self action:@selector(getFlutterVersionToFlutter) forControlEvents:UIControlEventTouchUpInside];
     [nativeV addSubview:btn];
@@ -134,7 +146,7 @@
     
     UIButton *chatSendBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     [chatSendBtn setFrame:CGRectMake(10, 80, 150, 30)];
-    [chatSendBtn setTitle:@"发送信息: " forState:UIControlStateNormal];
+    [chatSendBtn setTitle:@"MessageC发送信息: " forState:UIControlStateNormal];
     [chatSendBtn setBackgroundColor:[UIColor lightGrayColor]];
     [chatSendBtn addTarget:self action:@selector(sendMessageByMessageChannel) forControlEvents:UIControlEventTouchUpInside];
     [nativeV addSubview:chatSendBtn];
@@ -146,7 +158,7 @@
     
     UIButton *chatReceiveBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     [chatReceiveBtn setFrame:CGRectMake(10, 130, 150, 30)];
-    [chatReceiveBtn setTitle:@"收到信息: " forState:UIControlStateNormal];
+    [chatReceiveBtn setTitle:@"MessageC收到信息: " forState:UIControlStateNormal];
     [chatReceiveBtn setBackgroundColor:[UIColor lightGrayColor]];
     [nativeV addSubview:chatReceiveBtn];
     
@@ -155,6 +167,18 @@
     [self.receiveMessageLabel setTextAlignment:NSTextAlignmentCenter];
     [self.receiveMessageLabel setTextColor:[UIColor blueColor]];
     [nativeV addSubview:self.receiveMessageLabel];
+    
+    UIButton *eventSendBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [eventSendBtn setFrame:CGRectMake(10, 180, 150, 30)];
+    [eventSendBtn setTitle:@"EventC发送: " forState:UIControlStateNormal];
+    [eventSendBtn setBackgroundColor:[UIColor lightGrayColor]];
+    [nativeV addSubview:eventSendBtn];
+    
+    self.eventSendLabel = [[UILabel alloc] initWithFrame:CGRectMake(150 + 20, 180, 215, 30)];
+    [self.eventSendLabel setText:@"NO ReceiveMessage"];
+    [self.eventSendLabel setTextAlignment:NSTextAlignmentCenter];
+    [self.eventSendLabel setTextColor:[UIColor blueColor]];
+    [nativeV addSubview:self.eventSendLabel];
     
     [self.view addSubview:nativeV];
     [self.view bringSubviewToFront:nativeV];

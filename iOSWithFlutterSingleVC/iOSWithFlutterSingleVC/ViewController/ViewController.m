@@ -10,11 +10,11 @@
 #import "AppDelegate.h"
 #import <Flutter/FlutterViewController.h>
 #import <FlutterPluginRegistrant/GeneratedPluginRegistrant.h>
-#import "FirstFlutterPage.h"
+#import "SecondFlutterPage.h"
+#import <Flutter/Flutter.h>
 
 @interface ViewController ()
 
-@property(nonatomic, strong) FlutterViewController *flutterPage;
 
 @end
 
@@ -26,23 +26,19 @@
 }
 
 - (IBAction)clickedToFlutter:(UIButton *)sender {
-    FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
-    self.flutterPage = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
-    [self.navigationController pushViewController:self.flutterPage animated:YES];
+    
+    FlutterViewController *firstFlutterPage = [[FlutterViewController alloc] init];
+    [firstFlutterPage setInitialRoute:@"/FirstFlutterPage"];
+    [firstFlutterPage setTitle:@"FirstFlutterPage"];
+    [self.navigationController pushViewController:firstFlutterPage animated:YES];
+    
 }
 
 - (IBAction)clickedToFlutter2:(id)sender {
-    FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
-    FirstFlutterPage *ffp = [[FirstFlutterPage alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
-    [self.navigationController pushViewController:ffp animated:YES];
-}
 
-
-- (void)initFlutterRouter
-{
-    FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
-    FlutterViewController *flutterVC = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
-    [flutterVC setInitialRoute:@"FlutterVC1"];
+    SecondFlutterPage *secondFlutterPage = [[SecondFlutterPage alloc] init];
+    [secondFlutterPage setInitialRoute:@"/"];
+    [self.navigationController pushViewController:secondFlutterPage animated:YES];
 }
 
 

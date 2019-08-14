@@ -7,6 +7,8 @@
 //
 
 #import "SecondNativePage.h"
+#import <FlutterPluginRegistrant/GeneratedPluginRegistrant.h>
+#import <Flutter/Flutter.h>
 
 @interface SecondNativePage ()
 
@@ -20,7 +22,10 @@
 }
 
 - (IBAction)clickedToFlutter:(id)sender {
-    
+//    FlutterEngine *engine = [[FlutterEngine alloc] initWithName:@"Flutter.io" project:nil];
+//    [engine runWithEntrypoint:nil];
+    FlutterViewController *thirdFlutterPage = [[FlutterViewController alloc] init];
+    [self.navigationController pushViewController:thirdFlutterPage animated:YES];
     
 }
 

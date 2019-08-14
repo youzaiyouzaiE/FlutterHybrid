@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9EE62ECBAD9D2FB5F9390C3D /* libPods-iOSWithFlutterSingleVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB6F99191F2CA2A79D282D5 /* libPods-iOSWithFlutterSingleVC.a */; };
-		A3146E1822F95F1A005F8333 /* FirstFlutterPage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3146E1722F95F1A005F8333 /* FirstFlutterPage.m */; };
+		A3146E1822F95F1A005F8333 /* SecondFlutterPage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3146E1722F95F1A005F8333 /* SecondFlutterPage.m */; };
 		A3B4FC9B22F929210083C8EE /* libFlutterPluginRegistrant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B4FC9A22F929210083C8EE /* libFlutterPluginRegistrant.a */; };
 		A3F0615E22F80C31000C4462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0615D22F80C31000C4462 /* AppDelegate.m */; };
 		A3F0616122F80C31000C4462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0616022F80C31000C4462 /* ViewController.m */; };
@@ -22,8 +22,8 @@
 /* Begin PBXFileReference section */
 		0FB56CE385B17E4AFD2585A0 /* Pods-iOSWithFlutterSingleVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWithFlutterSingleVC.debug.xcconfig"; path = "Target Support Files/Pods-iOSWithFlutterSingleVC/Pods-iOSWithFlutterSingleVC.debug.xcconfig"; sourceTree = "<group>"; };
 		2EB6F99191F2CA2A79D282D5 /* libPods-iOSWithFlutterSingleVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWithFlutterSingleVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3146E1622F95F1A005F8333 /* FirstFlutterPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstFlutterPage.h; sourceTree = "<group>"; };
-		A3146E1722F95F1A005F8333 /* FirstFlutterPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstFlutterPage.m; sourceTree = "<group>"; };
+		A3146E1622F95F1A005F8333 /* SecondFlutterPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondFlutterPage.h; sourceTree = "<group>"; };
+		A3146E1722F95F1A005F8333 /* SecondFlutterPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondFlutterPage.m; sourceTree = "<group>"; };
 		A3B4FC9A22F929210083C8EE /* libFlutterPluginRegistrant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFlutterPluginRegistrant.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F0615922F80C31000C4462 /* iOSWithFlutterSingleVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWithFlutterSingleVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F0615C22F80C31000C4462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		A3146E1522F95EEC005F8333 /* FirstFlutterPage */ = {
 			isa = PBXGroup;
 			children = (
-				A3146E1622F95F1A005F8333 /* FirstFlutterPage.h */,
-				A3146E1722F95F1A005F8333 /* FirstFlutterPage.m */,
+				A3146E1622F95F1A005F8333 /* SecondFlutterPage.h */,
+				A3146E1722F95F1A005F8333 /* SecondFlutterPage.m */,
 			);
 			path = FirstFlutterPage;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 			files = (
 				A3F0616122F80C31000C4462 /* ViewController.m in Sources */,
 				A3F0617B22F82635000C4462 /* SecondNativePage.m in Sources */,
-				A3146E1822F95F1A005F8333 /* FirstFlutterPage.m in Sources */,
+				A3146E1822F95F1A005F8333 /* SecondFlutterPage.m in Sources */,
 				A3F0616C22F80C32000C4462 /* main.m in Sources */,
 				A3F0615E22F80C31000C4462 /* AppDelegate.m in Sources */,
 			);
