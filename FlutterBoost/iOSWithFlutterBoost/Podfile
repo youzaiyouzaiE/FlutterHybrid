@@ -1,0 +1,15 @@
+platform :ios, '9.0'
+
+
+flutter_application_path = '/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native'
+
+eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+
+target 'iOSWithFlutterBoost' do
+
+  
+   
+   pod 'AFNetworking'
+    
+end
+

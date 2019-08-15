@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Flutter (1.0.0)
+  - flutter_plugin_batterylevel (0.0.1):
+    - Flutter
+  - flutter_to_native (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_plugin_batterylevel
+
+DEPENDENCIES:
+  - AFNetworking
+  - Flutter (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/engine`)
+  - flutter_plugin_batterylevel (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/.symlinks/flutter_plugin_batterylevel/ios`)
+  - flutter_to_native (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/FlutterPluginRegistrant`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/engine"
+  flutter_plugin_batterylevel:
+    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/.symlinks/flutter_plugin_batterylevel/ios"
+  flutter_to_native:
+    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_plugin_batterylevel: 2f8061a872b75c58a933c7b4565fcbffe2a8c971
+  flutter_to_native: 14fbf43b23365b40487537a4b7f636d277420ce1
+  FlutterPluginRegistrant: efd3c8ad6eede3b6b2bd26833b8243c588d16445
+
+PODFILE CHECKSUM: 61f52dbd5ea9ef667655ce914a3763a16cf6964e
+
+COCOAPODS: 1.7.5

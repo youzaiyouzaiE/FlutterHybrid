@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.1):
+    - Flutter
+    - xservice_kit
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+    - xservice_kit
+  - xservice_kit (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - AFNetworking
+  - Flutter (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine`)
+  - flutter_boost (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native/.ios/Flutter/.symlinks/flutter_boost/ios`)
+  - FlutterPluginRegistrant (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native/.ios/Flutter/FlutterPluginRegistrant`)
+  - xservice_kit (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native/.ios/Flutter/.symlinks/xservice_kit/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native/.ios/Flutter/.symlinks/flutter_boost/ios"
+  FlutterPluginRegistrant:
+    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native/.ios/Flutter/FlutterPluginRegistrant"
+  xservice_kit:
+    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/FlutterBoost/flutter_boost_to_native/.ios/Flutter/.symlinks/xservice_kit/ios"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_boost: 0e85ea37c74ed39ee7b91a35612afa1605557484
+  FlutterPluginRegistrant: 09e35a5c8903bbd46dc4a41f36a0075b6d4714d1
+  xservice_kit: a2f1b35addc126fce8687aeb183ab0c1ada5b7f3
+
+PODFILE CHECKSUM: 4f5078dd3be5d60085d83d4cbb78ccc73e89ff2c
+
+COCOAPODS: 1.7.5
