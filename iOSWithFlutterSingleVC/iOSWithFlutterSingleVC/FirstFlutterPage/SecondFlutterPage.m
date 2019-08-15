@@ -127,7 +127,7 @@
     [nativeV setBackgroundColor:[UIColor blueColor]];
     
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 50, 50)];
-    [titleLabel setTextColor:[UIColor blueColor]];
+    [titleLabel setTextColor:[UIColor yellowColor]];
     [titleLabel setText:@"iOS"];
     [nativeV addSubview:titleLabel];
     
@@ -141,7 +141,7 @@
     self.flutterVersionLabel = [[UILabel alloc] initWithFrame:CGRectMake(150 + 20, 30, 215, 30)];
     [self.flutterVersionLabel setText:@"NO FlutterVerison"];
     [self.flutterVersionLabel setTextAlignment:NSTextAlignmentCenter];
-    [self.flutterVersionLabel setTextColor:[UIColor blueColor]];
+    [self.flutterVersionLabel setTextColor:[UIColor yellowColor]];
     [nativeV addSubview:self.flutterVersionLabel];
     
     UIButton *chatSendBtn = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -165,7 +165,7 @@
     self.receiveMessageLabel = [[UILabel alloc] initWithFrame:CGRectMake(150 + 20, 130, 215, 30)];
     [self.receiveMessageLabel setText:@"NO ReceiveMessage"];
     [self.receiveMessageLabel setTextAlignment:NSTextAlignmentCenter];
-    [self.receiveMessageLabel setTextColor:[UIColor blueColor]];
+    [self.receiveMessageLabel setTextColor:[UIColor yellowColor]];
     [nativeV addSubview:self.receiveMessageLabel];
     
     UIButton *eventSendBtn = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -177,7 +177,7 @@
     self.eventSendLabel = [[UILabel alloc] initWithFrame:CGRectMake(150 + 20, 180, 215, 30)];
     [self.eventSendLabel setText:@"NO ReceiveMessage"];
     [self.eventSendLabel setTextAlignment:NSTextAlignmentCenter];
-    [self.eventSendLabel setTextColor:[UIColor blueColor]];
+    [self.eventSendLabel setTextColor:[UIColor yellowColor]];
     [nativeV addSubview:self.eventSendLabel];
     
     [self.view addSubview:nativeV];
