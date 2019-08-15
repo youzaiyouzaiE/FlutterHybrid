@@ -5,21 +5,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ececc511-370f-43aa-b854-f1ccb7e561ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/FirstFlutterPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SecondFlutterPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcodeproj/project.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcodeproj/project.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/iOSWithFlutterBoost.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/iOSWithFlutterBoost.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.android/Flutter/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.android/Flutter/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/App.framework/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/App.framework/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/App.framework/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/App.framework/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.framework/Flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.framework/Headers/FlutterEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.framework/Headers/FlutterEngine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.framework/Headers/FlutterViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.framework/Headers/FlutterViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/engine/Flutter.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Flutter/podhelper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Flutter/podhelper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/.ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/snapshot_blob.bin.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_to_native.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_to_native.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/FirstFlutterPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/FirstFlutterPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/.idea/runConfigurations/main_dart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/flutter_with_native.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/flutter_with_native.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/ios/Flutter/Generated.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/ios/Runner/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/ios/Runner/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_with_native/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_with_native/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/Pods-iOSProject.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject.xcodeproj/project.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/ViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/ViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSProject/iOSProject/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter.xcodeproj/project.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/ViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/ViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutter/MyiOS/iOSWithFlutter/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Local Podspecs/Flutter.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Local Podspecs/Flutter.podspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcworkspace/xcuserdata/gaodeying.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcworkspace/xcuserdata/gaodeying.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/FirstFlutterPage/FirstFlutterPage.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/FirstFlutterPage/SecondFlutterPage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/FirstFlutterPage/FirstFlutterPage.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/FirstFlutterPage/SecondFlutterPage.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/SecondNaitvePage/SecondNativePage.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/SecondNaitvePage/SecondNativePage.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/Supporting Files/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/Supporting Files/AppDelegate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/Supporting Files/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/Supporting Files/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/Supporting Files/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/Supporting Files/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/ViewController/ViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/ViewController/ViewController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/ViewController/ViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC/ViewController/ViewController.m" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -35,7 +114,32 @@
     <favorites_list name="flutter_to_native" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="127" column="50" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/FirstFlutterPage.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,9 +170,14 @@
       <find>WelcomePage</find>
       <find>_methodChannelPlugin</find>
       <find>bluey</find>
+      <find>systemnavigat</find>
+      <find>systemnav</find>
+      <find>SystemNavigator</find>
+      <find>_sendMessageByMessageChannel</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/.ios</dir>
+      <dir>$USER_HOME$/development/flutter/packages/flutter/lib</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -82,23 +191,38 @@
         <option value="$PROJECT_DIR$/plugins/flutter_plugin_batterylevel/lib/flutter_plugin_batterylevel.dart" />
         <option value="$PROJECT_DIR$/lib/SecondFlutterPage.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/lib/FirstFlutterPage.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/FirstFlutterPage.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="207" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="70" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flutter_to_native" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_to_native" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="flutter_to_native" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_to_native_android" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,6 +253,27 @@
             <path>
               <item name="flutter_to_native" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Dart Packages" type="3dd79eb:DartTreeStructureProvider$1" />
+              <item name="lib" type="e6ad2126:DartTreeStructureProvider$DartSdkOrLibraryRootNode" />
+            </path>
+            <path>
+              <item name="flutter_to_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Dart Packages" type="3dd79eb:DartTreeStructureProvider$1" />
+              <item name="lib" type="e6ad2126:DartTreeStructureProvider$DartSdkOrLibraryRootNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_to_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Dart Packages" type="3dd79eb:DartTreeStructureProvider$1" />
+              <item name="lib" type="e6ad2126:DartTreeStructureProvider$DartSdkOrLibraryRootNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_to_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Dart SDK" type="3dd79eb:DartTreeStructureProvider$1" />
             </path>
             <path>
@@ -154,29 +299,22 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Flutter for Android" type="70bed36:NamedLibraryElementNode" />
               <item name="flutter.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="flutter" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_to_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Flutter for Android" type="70bed36:NamedLibraryElementNode" />
+              <item name="flutter.jar" type="462c0819:PsiDirectoryNode" />
               <item name="armeabi-v7a" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="flutter_to_native" type="58d84e3e:PackageViewProjectNode" />
-              <item name="flutter_to_native" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="58d84e3e:PackageViewProjectNode" />
-              <item name="flutter_to_native_android" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
           <expand>
             <path>
               <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -185,94 +323,7 @@
             <path>
               <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="io" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="io" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="io" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="plugins" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".ios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".ios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lib" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -282,7 +333,7 @@
           </expand>
           <select />
         </subPane>
-        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="flutter_to_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -351,9 +402,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="207" width="1440" height="877" extended-state="0" />
+    <frame x="-5" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74509805" visible="true" weight="0.3304721" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74509805" visible="true" weight="0.26108727" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -368,7 +420,7 @@
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.28917196" />
-      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.31082803" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.25732484" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
@@ -412,18 +464,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/flutter_plugin_batterylevel/flutter_plugin_batterylevel.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/flutter_plugin_batterylevel/.packages">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/flutter_plugin_batterylevel/CHANGELOG.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/flutter_plugin_batterylevel/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/flutter_plugin_batterylevel/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/services/platform_channel.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/container.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -565,13 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="123" column="2" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/SecondFlutterPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -594,35 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/navigator.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="795" column="22" selection-start-line="795" selection-start-column="22" selection-end-line="795" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/painting/text_style.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="380" column="6" selection-start-line="380" selection-start-column="6" selection-end-line="380" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/FirstFlutterPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/material.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#5031#0" expanded="true" />
-            <element signature="e#602#635#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,17 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/services.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#1411#0" expanded="true" />
-            <element signature="e#379#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.android/Flutter/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -775,10 +765,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/app.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/constants.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/navigator.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="883" column="19" selection-start-line="883" selection-start-column="19" selection-end-line="883" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/material.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#5031#0" expanded="true" />
+            <element signature="e#602#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2125">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="161">
+          <caret line="127" column="50" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/SecondFlutterPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/services.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#1411#0" expanded="true" />
+            <element signature="e#379#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/binding.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/services/platform_channel.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="306" column="2" selection-start-line="306" selection-start-column="2" selection-end-line="306" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/services/system_channels.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="228" column="70" selection-start-line="228" selection-start-column="70" selection-end-line="228" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/FirstFlutterPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

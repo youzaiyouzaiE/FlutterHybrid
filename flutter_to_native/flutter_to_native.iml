@@ -21,6 +21,9 @@
       <excludeFolder url="file://$MODULE_DIR$/.ios/Flutter/.symlinks/flutter_plugin_batterylevel/example/ios/.symlinks/plugins/flutter_plugin_batterylevel/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/flutter_plugin_batterylevel/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/flutter_plugin_batterylevel/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/flutter_plugin_batterylevel/build" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/flutter_plugin_batterylevel/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/flutter_plugin_batterylevel/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/flutter_plugin_batterylevel/example/build" />

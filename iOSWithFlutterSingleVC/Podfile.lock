@@ -25,10 +25,10 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - Flutter (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/engine`)
-  - flutter_plugin_batterylevel (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/.symlinks/flutter_plugin_batterylevel/ios`)
-  - flutter_to_native (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter`)
-  - FlutterPluginRegistrant (from `/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/FlutterPluginRegistrant`)
+  - Flutter (from `../flutter_to_native/.ios/Flutter/engine`)
+  - flutter_plugin_batterylevel (from `../flutter_to_native/.ios/Flutter/.symlinks/flutter_plugin_batterylevel/ios`)
+  - flutter_to_native (from `../flutter_to_native/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_to_native/.ios/Flutter/FlutterPluginRegistrant`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -36,17 +36,17 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/engine"
+    :path: "../flutter_to_native/.ios/Flutter/engine"
   flutter_plugin_batterylevel:
-    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/.symlinks/flutter_plugin_batterylevel/ios"
+    :path: "../flutter_to_native/.ios/Flutter/.symlinks/flutter_plugin_batterylevel/ios"
   flutter_to_native:
-    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter"
+    :path: "../flutter_to_native/.ios/Flutter"
   FlutterPluginRegistrant:
-    :path: "/Users/gaodeying/Desktop/Git_FlutterHybrid/flutter_to_native/.ios/Flutter/FlutterPluginRegistrant"
+    :path: "../flutter_to_native/.ios/Flutter/FlutterPluginRegistrant"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_plugin_batterylevel: 2f8061a872b75c58a933c7b4565fcbffe2a8c971
   flutter_to_native: 14fbf43b23365b40487537a4b7f636d277420ce1
   FlutterPluginRegistrant: efd3c8ad6eede3b6b2bd26833b8243c588d16445
