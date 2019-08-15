@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
       'second': (pageName, params, _) => SecondRouteWidget(),
       'tab': (pageName, params, _) => TabRouteWidget(),
       'flutterFragment': (pageName, params, _) => FragmentRouteWidget(params),
+
       ///可以在native层通过 getContainerParams 来传递参数
       'flutterPage': (pageName, params, _) {
         print("flutterPage params:$params");
@@ -46,11 +47,6 @@ class _MyAppState extends State<MyApp> {
         routes: routes,
         home: Container());
   }
-
-
-
-
-
 
   void _onRoutePushed(
       String pageName, String uniqueId, Map params, Route route, Future _) {
