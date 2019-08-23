@@ -2,16 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a99eb521-1777-43d8-b487-40cbed6e4af4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.android/Flutter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.android/Flutter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.android/Flutter/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.android/Flutter/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.android/include_flutter.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.android/include_flutter.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Config/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Config/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/.symlinks/flutter_boost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/.symlinks/xservice_kit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/App" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/App.framework/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Flutter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/Flutter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterAppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterBinaryMessenger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterCallbackCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterChannels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterCodecs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterDartProject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterHeadlessDartRunner.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterMacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterPlatformViews.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterTexture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Headers/FlutterViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.framework/icudtl.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/engine/Flutter.podspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/podhelper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Flutter/podhelper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/build/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/build/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/build/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/build/snapshot_blob.bin.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/flutter_boost_to_native/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/FlutterPluginRegistrant/GeneratedPluginRegistrant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBFlutterAppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBFlutterApplication.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBFlutterEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBFlutterEngineOld.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBFlutterViewContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBFlutterViewContainerManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBFlutterViewControllerAdaptor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBFlutterViewProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBMemoryInspector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBPlatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBResultMediator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBStackCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBStackCacheObjectImg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBViewControllerResultHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FLBViewProviderFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FlutterBoost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FlutterBoostConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/FlutterBoostPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/NavigationService_closePage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/NavigationService_flutterCanPop.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/NavigationService_onFlutterPageResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/NavigationService_onShownContainerChanged.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/NavigationService_openPage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/NavigationService_pageOnStart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/flutter_boost/Service_NavigationService.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/FlutterChannelManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/FlutterMessageClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/FlutterMessageFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/FlutterNativeService.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/FlutterServiceCallDispather.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/FlutterServiceCallHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/FlutterServiceTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/MCUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/MessageClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/MessageDispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/MessengerFacede.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/ServiceGateway.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/XKCollectionHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Private/xservice_kit/XserviceKitPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/FlutterPluginRegistrant/GeneratedPluginRegistrant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/flutter_boost/FLBFlutterAppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/flutter_boost/FLBFlutterViewContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/flutter_boost/FLBPlatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/flutter_boost/FLBViewControllerResultHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/flutter_boost/FlutterBoost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/flutter_boost/FlutterBoostPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/FlutterChannelManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/FlutterMessageClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/FlutterMessageFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/FlutterNativeService.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/FlutterServiceCallDispather.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/FlutterServiceCallHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/FlutterServiceTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/MCUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/MessageClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/MessageDispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/MessengerFacede.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/ServiceGateway.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/XKCollectionHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Headers/Public/xservice_kit/XserviceKitPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Local Podspecs/Flutter.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Local Podspecs/FlutterPluginRegistrant.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Local Podspecs/flutter_boost.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Local Podspecs/flutter_boost_to_native.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Local Podspecs/xservice_kit.podspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/Flutter.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/FlutterPluginRegistrant.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/flutter_boost.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xservice_kit.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Flutter/Flutter.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-frameworks-Debug-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-frameworks-Debug-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-frameworks-Release-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-frameworks-Release-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/flutter_boost/flutter_boost-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/flutter_boost/flutter_boost-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/flutter_boost/flutter_boost.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/xservice_kit/xservice_kit-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/xservice_kit/xservice_kit-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/Pods/Target Support Files/xservice_kit/xservice_kit.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/iOSWithFlutterBoost.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/iOSWithFlutterBoost.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/iOSWithFlutterBoost.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/iOSWithFlutterBoost.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/iOSWithFlutterBoost.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../FlutterBoost/iOSWithFlutterBoost/iOSWithFlutterBoost.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_to_native/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_to_native/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Assets.car" afterDir="false" />
@@ -19,13 +160,15 @@
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_with_native.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_with_native.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/Pods/Pods.xcodeproj/xcuserdata/gaodeying.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSWithFlutterSingleVC/iOSWithFlutterSingleVC.xcworkspace/xcuserdata/gaodeying.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -38,36 +181,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ios/Runner/AppDelegate.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/Runner/main.m">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/Runner/AppDelegate.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -76,21 +190,42 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ios/Runner/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="77" />
+    <option name="x" value="457" />
+    <option name="y" value="96" />
     <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flutter_with_native" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_with_native" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="flutter_with_native" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_with_native_android" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="flutter_with_native" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_with_native_android" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -101,42 +236,7 @@
             <path>
               <item name="flutter_with_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_with_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_with_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_with_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Flutter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_with_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Runner" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_with_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Runner" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Assets.xcassets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="flutter_with_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Runner.xcodeproj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="flutter_with_native" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -154,16 +254,6 @@
             <path>
               <item name="flutter_with_native" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_with_native" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_with_native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_with_native" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_with_native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_with_native" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_with_native" type="b2602c69:ProjectViewProjectNode" />
@@ -208,10 +298,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="77" width="1440" height="806" extended-state="0" />
-    <editor active="true" />
+    <frame x="457" y="96" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -220,7 +309,34 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32913166" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.355414" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32913166" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Captures" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32913166" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.2394958" />
       <window_info anchor="bottom" id="TODO" order="2" />
@@ -231,13 +347,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32913166" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Flutter Inspector" order="3" />
       <window_info anchor="right" id="Flutter Outline" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ios/Runner/AppDelegate.h">
@@ -250,20 +367,36 @@
     <entry file="file://$PROJECT_DIR$/ios/Runner/main.m">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.packages">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ios/Runner/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/material.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="e#0#5031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_to_native_realse (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../flutter_to_native_realse/.ios/Flutter/engine`)
+  - flutter_to_native_realse (from `../flutter_to_native_realse/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_to_native_realse/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutter_to_native_realse/.ios/Flutter/engine"
+  flutter_to_native_realse:
+    :path: "../flutter_to_native_realse/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutter_to_native_realse/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_to_native_realse: 1f749ea01e95b3b852be409a86cb2a3a9b9eae09
+  FlutterPluginRegistrant: 8855ca2b426d228cb41aa6c26c0c83b8c49e3593
+
+PODFILE CHECKSUM: bbb7878d3673dfeb4d23e019b0e7bb76ef19e816
+
+COCOAPODS: 1.7.5

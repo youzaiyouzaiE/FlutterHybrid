@@ -126,7 +126,6 @@
 				A320D48F230405F700510BC5 /* Sources */,
 				A320D490230405F700510BC5 /* Frameworks */,
 				A320D491230405F700510BC5 /* Resources */,
-				1DD5E7E9BD37887DEAEB2FAA /* [CP] Embed Pods Frameworks */,
 				A31C1FB823050877002AF4B7 /* ShellScript */,
 			);
 			buildRules = (
@@ -185,23 +184,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1DD5E7E9BD37887DEAEB2FAA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSWithFlutterBoost/Pods-iOSWithFlutterBoost-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4F13F8BB24CE28EE675503A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
